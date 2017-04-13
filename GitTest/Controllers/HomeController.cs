@@ -22,7 +22,7 @@ namespace GitTest.Controllers
 
         public IActionResult News()
         {
-            ViewData["Message"] = "Test a Branch!";
+            ViewData["Message"] = "Test a Branch! \r\n Push Branch";
 
             return View();
         }

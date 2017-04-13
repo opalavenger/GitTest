@@ -20,6 +20,13 @@ namespace GitTest.Controllers
             return View();
         }
 
+        public IActionResult News()
+        {
+            ViewData["Message"] = "Test a Branch!";
+
+            return View();
+        }
+
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
